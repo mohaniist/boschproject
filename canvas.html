@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Introduction</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+</html>
+<body>
+    <div id="top"class="container-fluid row">
+      <div class="col-sm-12">
+        <nav
+          class="navbar navbar-expand-sm bg-dark navbar-dark navbar_1"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="img/bosch logo.png"
+                alt="Logo"
+                class="thumbnail navbar_2"
+              />
+            </a>
+            <ul class="navbar-nav navbar_3">
+              <li class="nav-item">
+                <a class="nav-link navbar_4" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar_4" href="overview.html">Overview</a>
+              </li>
+              <li class="nav-item">
+                <li class="nav-item dropdown">
+                  <a class="nav-link navbar_4 dropdown-toggle" data-bs-toggle="dropdown" href="#">Topics</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Introduction.html">Introduction</a></li>
+                    <li><a class="dropdown-item" href="Slicers.html">Slicers</a></li>
+                    <li><a class="dropdown-item" href="cards.html">Cards</a></li>
+                    <li><a class="dropdown-item" href="DAX.html">DAX Functions</a></li>
+                    <li><a class="dropdown-item" href="Visualizations.html">Data Visualization</a></li>
+                    <li><a class="dropdown-item" href="formattools.html">Format tools</a></li>
+                    <li><a class="dropdown-item disabled" href="canvas.html">Canvas</a></li>
+                    <li><a class="dropdown-item" href="images.html">Images</a></li>
+                  </ul>
+                </li>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+   </div>
+  </div>
+  <div> <div  class="container-fluid firstpara"><br>
+    <h3>How to create a canvas app with Power BI visual</h3>
+    <p>Microsoft Power BI is a powerful analysis and visualization tool. Power Apps is great at enabling people to take action on the web and mobile. Canvas apps created using Power Apps can be embedded in a Power BI report. Similarly, a Power BI report tile can be added to a canvas app. The best of both worlds can be achieved at the same place and same time.</p>
+    <h3>Prerequisites</h3>
+    <p>To complete this lesson, we'd need the ability to create Power BI dashboards and reports.</p>
+
+    <h3>Sign in to Power BI</h3>
+    <p>Sign in to Power BI with the same Office license as the one used for creating the Power Apps.</p>
+
+    <h3>Create a new workspace</h3>
+    <div class="container-fluid mt-3">
+       
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                Step 1
+              </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+              <div class="card-body accordian-cardbody">
+                Select Workspaces from the left-pane.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+              Step 2
+            </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body accordian-cardbody">
+                Select Create a workspace.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                Step 3
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body accordian-cardbody">
+                Enter a name for the workspace, and then select Save.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                Step 4
+              </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body accordian-cardbody" >
+                Select + New, and add a dashboard.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                Step 5
+              </a>
+            </div>
+            <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body accordian-cardbody" >
+                Add a name for the dashboard, then select Create.The Power BI dashboard gets created within the workspace we created
+
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSix">
+                Step 6  
+              </a>
+            </div>
+            <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body accordian-cardbody" >
+                Open the workspace, select + New, and then select Dataset to create a new dataset.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSeven">
+                Step 7
+              </a>
+            </div>
+            <div id="collapseSeven" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body accordian-cardbody">
+                Select Samples under "More ways to create your own content" to use sample data.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header accordian-cardheader" >
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseEight">
+                Step 8
+              </a>
+            </div>
+            <div id="collapseEight" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body accordian-cardbody">
+                Select Sales and Marketing sample. You can also select another sample of your choice.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseNine">
+                Step 9
+              </a>
+            </div>
+            <div id="collapseNine" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body accordian-cardbody">
+            Select Connect to connect to the sample data.A dataset with the Sales and Marketing sample and a report gets added to the Workspace.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTen">
+                Step 10
+              </a>
+            </div>
+            <div id="collapseTen" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body accordian-cardbody" >
+                From the left-pane, select the report that was created from the dataset, select ... (ellipsis), and select then select Pin to a dashboard.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseEleven">
+                Step 11
+              </a>
+            </div>
+            <div id="collapseEleven" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body accordian-cardbody">
+                Select Existing dashboard, select the dashboard, and then select Pin live.The report gets added to the dashboard, and is ready for use in Power Apps.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>Create a new canvas app</h3>
+      <div class="container-fluid mt-3">
+       
+        <div id="accordion1">
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="btn" data-bs-toggle="collapse" href="#collapseOnes">
+                Step 1
+              </a>
+            </div>
+            <div id="collapseOnes" class="collapse show" data-bs-parent="#accordion1">
+              <div class="card-body accordian-cardbody">
+                Start by creating a blank canvas app.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwos">
+              Step 2
+            </a>
+            </div>
+            <div id="collapseTwos" class="collapse" data-bs-parent="#accordion1">
+              <div class="card-body accordian-cardbody">
+                Select Insert > Charts > Power BI tile.The Power BI Tile gets added to the screen.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThrees">
+                Step 3
+              </a>
+            </div>
+            <div id="collapseThrees" class="collapse" data-bs-parent="#accordion1">
+              <div class="card-body accordian-cardbody">
+                Select the Workspace, dashboard and tile created earlier to add the Power BI tile to the canvas app.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header accordian-cardheader">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFours">
+                Step 4
+              </a>
+            </div>
+            <div id="collapseFours" class="collapse" data-bs-parent="#accordion1">
+              <div class="card-body accordian-cardbody">
+                Save and publish the app.You've created a canvas app with Power BI tile.
+              </div>
+            </div>
+          </div>
+          <br>
+
+         
+        </div>
+      </div>
+          
+</div><br>
+<div class="col-sm-11 copyrightText">
+    © Bosch Limited 2022, all rights reserved &nbsp;&nbsp;&nbsp;
+    <a href="#top"><img src="img/gototop.jfif" class="gototop1"/></a>
+    </div> 
+    
+
+
+        
+
+    </body>
+    </html>
